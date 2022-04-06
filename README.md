@@ -1,13 +1,13 @@
 # tmux
 
-for first use, uncomment these lines
+<b>for first use, uncomment these lines </b>
 
-sudo apt install -y tmux tmuxinator
+<i>sudo apt install -y tmux tmuxinator
 
 mv ~/.tmux.conf ~/.tmux.conf.backup
 
 cp ./.tmux.conf ~/.tmux.conf
 
-echo "Backup and copy ~/.tmux.conf "
+echo "Backup and copy ~/.tmux.conf "</i>
 
 <img src="tmux.png" width=800 height=500 />
