@@ -2,7 +2,7 @@
 
 <b>for first use, uncomment these lines </b>
 
-<i>sudo apt install -y tmux tmuxinator
+<i>sudo apt install -y tmux tmuxinator neofetch
 
 mv ~/.tmux.conf ~/.tmux.conf.backup
 

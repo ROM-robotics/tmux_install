@@ -1,10 +1,10 @@
 #!/bin/bash
 
 ###     tmux CONFIGURATION
-#sudo apt install -y tmux tmuxinator
+#sudo apt install -y tmux tmuxinator neofetch
 #mv ~/.tmux.conf ~/.tmux.conf.backup
-#cp ./.tmux.conf ~/.tmux.conf
-#echo "Backup and copy ~/.tmux.conf "
+cp ./.tmux.conf ~/.tmux.conf
+echo "Backup and copy ~/.tmux.conf "
 
 ##      Absolute path to this script. /home/user/bin/foo.sh
 SCRIPT=$(readlink -f $0)
