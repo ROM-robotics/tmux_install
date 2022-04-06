@@ -6,22 +6,23 @@ root: ~/
 pre_window: export PS1=" \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;45m\]>>>\[$(tput sgr0)\] \[$(tput sgr0)\]"
 
 startup_window: roscore
-startup_pane: 0
+startup_pane: 3
 
 windows:
   - roscore:
-      layout: 833f,122x31,0,0[122x15,0,0,0,122x15,0,16{61x15,0,16,1,60x15,62,16,2}]
+      layout: ab98,203x54,0,0[203x22,0,0{101x22,0,0,0,101x22,102,0,3},203x31,0,23,4]
       panes:
+        - clear; neofetch; echo "                              OPEN SOURCE ROBOTICS FOR MYANMAR"
         - clear; roscore
-        - clear; waitForRos; rosrun rqt_graph rqt_graph
+        - clear; waitForRos; echo " You can run roslaunch or rosrun or anything."
   - Editor: 
       layout: 0a91,122x31,0,0{61x31,0,0,0,60x31,62,0,1}
       panes:
         - clear; htop
-        - clear; tail -50 ~/.bashrc
+        - clear; vim
   - Gazebo: 
       layout: tiled
       panes:
-        - clear; htop
+        - clear; top
         - clear; tail -50 ~/.bashrc
   
