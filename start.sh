@@ -6,6 +6,9 @@
 cp ./.tmux.conf ~/.tmux.conf
 echo "Backup and copy ~/.tmux.conf "
 
+###     Installing additional
+#sudo apt install cowsay
+
 ##      Absolute path to this script. /home/user/bin/foo.sh
 SCRIPT=$(readlink -f $0)
 echo "$SCRIPT"

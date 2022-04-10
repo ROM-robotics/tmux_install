@@ -12,7 +12,7 @@ windows:
   - roscore:
       layout: ab98,203x54,0,0[203x22,0,0{101x22,0,0,0,101x22,102,0,3},203x31,0,23,4]
       panes:
-        - clear; neofetch; echo "                              OPEN SOURCE ROBOTICS FOR MYANMAR"
+        - clear; cowsay Wellcome Idiots! ; echo "                              OPEN SOURCE ROBOTICS FOR MYANMAR"
         - clear; roscore
         - clear; waitForRos; echo " You can run roslaunch or rosrun or anything."
   - Editor: 
