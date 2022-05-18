@@ -1,13 +1,13 @@
 #!/bin/bash
 
 ###     tmux CONFIGURATION
-#sudo apt install -y tmux tmuxinator neofetch
-#mv ~/.tmux.conf ~/.tmux.conf.backup
+sudo apt install -y tmux tmuxinator neofetch
+mv ~/.tmux.conf ~/.tmux.conf.backup
 cp ./.tmux.conf ~/.tmux.conf
 echo "Backup and copy ~/.tmux.conf "
 
 ###     Installing additional
-#sudo apt install cowsay
+sudo apt install cowsay
 
 ##      Absolute path to this script. /home/user/bin/foo.sh
 SCRIPT=$(readlink -f $0)
