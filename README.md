@@ -4,7 +4,9 @@ $ ./start.sh
 ဖြင့် install လုပ်ပြီးပါက ~  အောက်တွင်
 <br>
 $ tmuxinator
-
+<br>
+color မမှန်ရင် <br>
+$ tmux source-file ~/.tmux.conf
 <img src="tmux.png" width=800 height=500 />
 
 ### tumx
