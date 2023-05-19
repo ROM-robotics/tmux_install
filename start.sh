@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###     tmux CONFIGURATION
-sudo apt install -y tmux tmuxinator neofetch cowsay htop
+sudo apt install -y tmux tmuxinator neofetch cowsay htop ranger
 if [[ -e ~/.tmux.conf ]]
 then
     rm ~/.tmux.conf
