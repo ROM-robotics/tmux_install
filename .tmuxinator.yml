@@ -37,5 +37,5 @@ windows:
       panes:
         - clear; source ~/.bashrcROS; cowsay Wellcome Idiots! ; echo "                              OPEN SOURCE ROBOTICS FOR MYANMAR"
         - clear; source ~/.bashrcROS; neofetch
-        - clear; source ~/.bashrcROS; ranger ranger ros2/ros2_ws/src/rom2109_simulation/
+        - clear; source ~/.bashrcROS; ranger ~/ros2/ros2_ws/src/rom2109_simulation/
   
